@@ -1,0 +1,10 @@
+node_modules
+dist
+.DS_Store
+*.log
+.qa
+.claude/
+.ssr
+
+# Корневой .gitignore команды (питоновский) игнорирует любые lib/ — возвращаем исходники фронта
+!src/lib/
